@@ -1,11 +1,15 @@
 package models;
 
+import java.sql.Date;
+import java.sql.Timestamp;
+import java.util.Objects;
+
 public class Student {
     private String name;
     private String email;
     private String phoneNumber;
     private int courseId;
-    private String enrollmentDate;
+    private Date enrollmentDate;
 
     private int id;
 
@@ -15,7 +19,7 @@ public class Student {
         this.email = email;
         this.phoneNumber = phoneNumber;
         this.courseId = courseId;
-        this.enrollmentDate = enrollmentDate;
+        this.enrollmentDate = Date.valueOf(enrollmentDate);
     }
 
     public String getName() {
@@ -50,12 +54,12 @@ public class Student {
         this.courseId = courseId;
     }
 
-    public String getEnrollmentDate() {
+    public Date getEnrollmentDate() {
         return enrollmentDate;
     }
 
     public void setEnrollmentDate(String enrollmentDate) {
-        this.enrollmentDate = enrollmentDate;
+        this.enrollmentDate = Date.valueOf(enrollmentDate);
     }
 
     public int getId() {
@@ -64,5 +68,18 @@ public class Student {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return courseId == student.courseId && id == student.id && name.equals(student.name) && email.equals(student.email) && phoneNumber.equals(student.phoneNumber) && enrollmentDate.equals(student.enrollmentDate);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, email, phoneNumber, courseId, enrollmentDate, id);
     }
 }
