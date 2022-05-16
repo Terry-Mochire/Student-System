@@ -50,7 +50,7 @@ class StudentTest {
 
     //helper
     public Student setUpStudent(){
-        Student testStudent = new Student("Kirk Franklin", "kirk@test.com", "0712345678", 1, "Mon 16 May");
+        Student testStudent = new Student("Kirk Franklin", "kirk@test.com", "0712345678",  "Mon 16 May", 1);
          return testStudent;
     }
 }

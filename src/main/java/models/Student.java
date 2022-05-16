@@ -10,7 +10,7 @@ public class Student {
     private int id;
 
 
-    public Student(String name, String email, String phoneNumber, int courseId, String enrollmentDate ){
+    public Student(String name, String email, String phoneNumber, String enrollmentDate, int courseId ){
         this.name = name;
         this.email = email;
         this.phoneNumber = phoneNumber;
