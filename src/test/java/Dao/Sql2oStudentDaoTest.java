@@ -54,7 +54,13 @@ class Sql2oStudentDaoTest {
     }
 
     @Test
-    void findById() {
+    void findByName_returnsStudentWithTheSameName() {
+        Student testStudent = setUpStudent();
+        Student testStudent2 = setUpStudent2();
+        sql2oStudentDao.add(testStudent);
+        sql2oStudentDao.add(testStudent2);
+        Student savedStudent = sql2oStudentDao.findByName(testStudent.getName());
+        assertEquals(testStudent.getName(), savedStudent.getName());
     }
 
     @Test
@@ -69,7 +75,12 @@ class Sql2oStudentDaoTest {
 
     //helper
     public Student setUpStudent(){
-        Student testStudent = new Student("Kirk Franklin", "kirk@test.com", "0712345678",  "2022-05-16", 1);
+        Student testStudent = new Student("Kirk", "kirk@test.com", "0712345678",  "2022-05-16", 1);
+        return testStudent;
+    }
+
+    public Student setUpStudent2(){
+        Student testStudent = new Student("Marilyn Monroe", "monroe@test.com", "0787654321",  "2022-04-23", 2);
         return testStudent;
     }
 
