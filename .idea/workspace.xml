@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e215f530-bf52-4874-a69d-589e41ec7cbc" name="Changes" comment="" />
+    <list default="true" id="e215f530-bf52-4874-a69d-589e41ec7cbc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/CourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/CourseTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,75 +66,75 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Dao" />
       <recent name="models" />
+      <recent name="Dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Sql2oStudentDaoTest.findByName_returnsStudentWithTheSameName">
-    <configuration name="Sql2oStudentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CourseTest.getCourseDetails">
+    <configuration name="CourseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentSytem.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dao.*" />
+          <option name="PATTERN" value="models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Dao" />
-      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oStudentDaoTest" />
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.CourseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sql2oStudentDaoTest.add_insertsObjectIntoDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseTest.getCourseDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentSytem.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dao.*" />
+          <option name="PATTERN" value="models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Dao" />
-      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oStudentDaoTest" />
-      <option name="METHOD_NAME" value="add_insertsObjectIntoDatabase" />
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.CourseTest" />
+      <option name="METHOD_NAME" value="getCourseDetails" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sql2oStudentDaoTest.findByName_returnsStudentWithTheSameName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseTest.getCourseName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentSytem.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dao.*" />
+          <option name="PATTERN" value="models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Dao" />
-      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oStudentDaoTest" />
-      <option name="METHOD_NAME" value="findByName_returnsStudentWithTheSameName" />
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.CourseTest" />
+      <option name="METHOD_NAME" value="getCourseName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sql2oStudentDaoTest.getAll_returnsAllInstancesOfStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentSytem.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dao.*" />
+          <option name="PATTERN" value="models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Dao" />
-      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oStudentDaoTest" />
-      <option name="METHOD_NAME" value="getAll_returnsAllInstancesOfStudent" />
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.CourseTest" />
+      <option name="METHOD_NAME" value="testEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sql2oStudentDaoTest.newStudentAddsToDbCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Sql2oStudentDaoTest.findByCourseId_returnsStudentsWithThatCourseId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentSytem.test" />
       <extension name="coverage">
         <pattern>
@@ -140,7 +144,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Dao" />
       <option name="MAIN_CLASS_NAME" value="Dao.Sql2oStudentDaoTest" />
-      <option name="METHOD_NAME" value="newStudentAddsToDbCorrectly" />
+      <option name="METHOD_NAME" value="findByCourseId_returnsStudentsWithThatCourseId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Sql2oStudentDaoTest.findByName_returnsStudentWithTheSameName" />
-        <item itemvalue="JUnit.Sql2oStudentDaoTest" />
-        <item itemvalue="JUnit.Sql2oStudentDaoTest.getAll_returnsAllInstancesOfStudent" />
-        <item itemvalue="JUnit.Sql2oStudentDaoTest.add_insertsObjectIntoDatabase" />
-        <item itemvalue="JUnit.Sql2oStudentDaoTest.newStudentAddsToDbCorrectly" />
+        <item itemvalue="JUnit.CourseTest.getCourseDetails" />
+        <item itemvalue="JUnit.CourseTest" />
+        <item itemvalue="JUnit.CourseTest.testEquals" />
+        <item itemvalue="JUnit.CourseTest.getCourseName" />
+        <item itemvalue="JUnit.Sql2oStudentDaoTest.findByCourseId_returnsStudentsWithThatCourseId" />
       </list>
     </recent_temporary>
   </component>

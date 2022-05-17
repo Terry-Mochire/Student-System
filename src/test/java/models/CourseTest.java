@@ -22,6 +22,11 @@ class CourseTest {
         assertEquals("Communication", testCourse.getCourseName());
     }
 
+    @Test
+    void getCourseDetails() {
+        Course testCourse = setUpCourse();
+        assertEquals("Enhance your communication skills", testCourse.getCourseDetails());
+    }
 
     @Test
     void testEquals() {
@@ -32,7 +37,7 @@ class CourseTest {
 
     //helper
     public Course setUpCourse(){
-        Course testCourse = new Course("Communication");
+        Course testCourse = new Course("Communication", "Enhance your communication skills");
         return testCourse;
     }
 }
