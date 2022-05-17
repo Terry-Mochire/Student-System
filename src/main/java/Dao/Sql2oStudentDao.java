@@ -51,6 +51,16 @@ public class Sql2oStudentDao implements StudentDao{
     }
 
     @Override
+    public List<Student> findByCourseId(int courseId) {
+        try(Connection con = DB.sql2o.open()) {
+            String sql = "SELECT * FROM students where courseid = :courseId";
+            return con.createQuery(sql)
+                    .addParameter("courseId", courseId)
+                    .executeAndFetch(Student.class);
+        }
+    }
+
+    @Override
     public void deleteByName(String name) {
         try(Connection con = DB.sql2o.open()) {
             String sql = "DELETE FROM students WHERE name = :name";

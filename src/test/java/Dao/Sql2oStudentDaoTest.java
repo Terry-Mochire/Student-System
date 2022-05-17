@@ -69,6 +69,15 @@ class Sql2oStudentDaoTest {
     }
 
     @Test
+    void findByCourseId_returnsStudentsWithThatCourseId(){
+        Student testStudent = setUpStudent();
+        Student testStudent2 = setUpStudent2();
+        sql2oStudentDao.add(testStudent);
+        sql2oStudentDao.add(testStudent2);
+        assertEquals(2, sql2oStudentDao.findByCourseId(1).size());
+    }
+
+    @Test
     void deleteById_deletesCorrectStudent() {
         Student testStudent = setUpStudent();
         Student testStudent2 = setUpStudent2();
@@ -97,7 +106,7 @@ class Sql2oStudentDaoTest {
     }
 
     public Student setUpStudent2(){
-        Student testStudent = new Student("Marilyn Monroe", "monroe@test.com", "0787654321",  "2022-04-23", 2);
+        Student testStudent = new Student("Marilyn Monroe", "monroe@test.com", "0787654321",  "2022-04-23", 1);
         return testStudent;
     }
 

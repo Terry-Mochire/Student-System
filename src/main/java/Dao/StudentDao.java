@@ -13,7 +13,7 @@ public interface StudentDao {
 
     Student findByName(String name);
 
-    Student findByCourseId(int courseId)
+    List<Student> findByCourseId(int courseId);
 
     //Update
 
