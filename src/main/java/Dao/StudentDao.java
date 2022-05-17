@@ -11,13 +11,13 @@ public interface StudentDao {
     //Read
     List<Student> getAll();
 
-    Student findById(int studentId);
+    Student findByName(String name);
 
 
     //Update
 
     //Delete
-    void deleteById(int studentId);
+    void deleteByName(String name);
 
     void clearAll();
 }

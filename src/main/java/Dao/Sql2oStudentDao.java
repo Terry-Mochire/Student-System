@@ -6,6 +6,7 @@ import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 import org.sql2o.Sql2oException;
 
+import java.security.SecureRandom;
 import java.util.List;
 
 public class Sql2oStudentDao implements StudentDao{
@@ -15,6 +16,7 @@ public class Sql2oStudentDao implements StudentDao{
     public Sql2oStudentDao(Sql2o sql2o) {
         this.sql2o = sql2o;
     }
+
 
     @Override
     public void add(Student student) {
@@ -39,12 +41,25 @@ public class Sql2oStudentDao implements StudentDao{
     }
 
     @Override
-    public Student findById(int studentId) {
-        return null;
+    public Student findByName(String name) {
+        try(Connection con = DB.sql2o.open()) {
+            String sql = "SELECT * FROM students WHERE name =:name ";
+            return con.createQuery(sql)
+                    .addParameter("name", name)
+                    .executeAndFetchFirst(Student.class);
+        }
     }
 
     @Override
-    public void deleteById(int studentId) {
+    public void deleteByName(String name) {
+        try(Connection con = DB.sql2o.open()) {
+            String sql = "DELETE FROM students WHERE name = :name";
+            con.createQuery(sql)
+                    .addParameter("name", name)
+                    .executeUpdate();
+        }catch (Sql2oException ex) {
+            System.out.println("Error deleting this student" + ex);
+        }
 
     }
 
@@ -54,7 +69,7 @@ public class Sql2oStudentDao implements StudentDao{
         try(Connection con = DB.sql2o.open()) {
             con.createQuery(sql).executeUpdate();
         } catch (Sql2oException ex) {
-            System.out.println("Error deleting students" + ex);
+            System.out.println("Error deleting all students" + ex);
         }
     }
 }
