@@ -1,0 +1,26 @@
+<form action="/students/new" method="post">
+    <div class="mb-3">
+        <label for="name" class="form-label">Student Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Student Email</label>
+        <input type="text" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="mb-3">
+        <label for="phonenumber" class="form-label">Student PhoneNumber</label>
+        <input type="text" class="form-control" id="phonenumber" name="phonenumber" required>
+    </div>
+    <div class="mb-3">
+        <label for="enrolmentdate" class="form-label">Enrollment Date</label>
+        <input type="date" class="form-control" id="enrolmentdate" name="enrolmentdate" required>
+    </div>
+    <div class="mb-3">
+        <label for="courseid" class="form-label">Course</label>
+        <input type="number" class="form-control" id="courseid" name="courseid" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+{{#if }}

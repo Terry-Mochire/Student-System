@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e215f530-bf52-4874-a69d-589e41ec7cbc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dao/Sql2oCourseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oCourseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Dao/Sql2oCourseDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Dao/Sql2oCourseDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +70,15 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Sql2oCourseDaoTest.findByNameReturnsCourseWithTheSameName">
-    <configuration name="Sql2oCourseDaoTest.addInsertsObjectIntoDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Sql2oCourseDaoTest">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="StudentSytem.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sql2oCourseDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentSytem.test" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +88,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="Dao" />
       <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
-      <option name="METHOD_NAME" value="addInsertsObjectIntoDatabase" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sql2oCourseDaoTest.clearAllDeletesAllCoursesFromDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentSytem.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
+      <option name="METHOD_NAME" value="clearAllDeletesAllCoursesFromDatabase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sql2oCourseDaoTest.deleteByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentSytem.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
+      <option name="METHOD_NAME" value="deleteByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,61 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sql2oCourseDaoTest.getAll_returnsAllInstancesOfCourses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentSytem.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Dao" />
-      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
-      <option name="METHOD_NAME" value="getAll_returnsAllInstancesOfCourses" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oCourseDaoTest.newCourseInstantiatesCorrectlyWithId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentSytem.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Dao" />
-      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
-      <option name="METHOD_NAME" value="newCourseInstantiatesCorrectlyWithId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oCourseDaoTest.noAddedCourseReturnsEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentSytem.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Dao" />
-      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
-      <option name="METHOD_NAME" value="noAddedCourseReturnsEmptyList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Sql2oCourseDaoTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.Sql2oCourseDaoTest.clearAllDeletesAllCoursesFromDatabase" />
+        <item itemvalue="JUnit.Sql2oCourseDaoTest.deleteByName" />
         <item itemvalue="JUnit.Sql2oCourseDaoTest.findByNameReturnsCourseWithTheSameName" />
-        <item itemvalue="JUnit.Sql2oCourseDaoTest.noAddedCourseReturnsEmptyList" />
-        <item itemvalue="JUnit.Sql2oCourseDaoTest.getAll_returnsAllInstancesOfCourses" />
-        <item itemvalue="JUnit.Sql2oCourseDaoTest.addInsertsObjectIntoDatabase" />
-        <item itemvalue="JUnit.Sql2oCourseDaoTest.newCourseInstantiatesCorrectlyWithId" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +172,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/App.java</url>
+          <line>14</line>
+          <properties class="App" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
