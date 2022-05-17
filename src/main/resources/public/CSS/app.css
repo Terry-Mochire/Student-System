@@ -108,8 +108,6 @@ color: #161755;
 }
 .prgh1{
 position: absolute;
-width: 244px;
-height: 30px;
 left: 132px;
 top: 550px;
 font-family: 'Poppins';
@@ -118,5 +116,131 @@ font-weight: 400;
 font-size: 20px;
 line-height: 30px;
 /* identical to box height */
+color: #000000;
+}
+.btn1{
+position: absolute;
+width: 120px;
+height: 40px;
+left: 139px;
+top: 630px;
+border:none;
+background: #4A4CC8;
+border-radius: 8px
+}
+.main-container{
+position: relative;
+width: 100%;
+height: 1200px;
+background: #F6F6EE;
+}
+.head-2{
+position: absolute;
+left: 600px;
+top: 850px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+line-height: 60px;
+/* identical to box height */
+color: #161755;
+}
+.prgh2{
+position: absolute;
+left: 420px;
+top: 930px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+}
+.prgh3{
+position: absolute;
+width: 921px;
+height: 30px;
+left: 340px;
+top: 980px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: #000000;
+}
+.prgh4{
+position: absolute;
+width: 723px;
+height: 30px;
+left: 420px;
+top: 1030px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: #000000;
+}
+.courses{
+position: absolute;
+width: 100%;
+height: 800px;
+left: 0px;
+top: 1100px;
+background: #FFFDFD;
+}
+.prgh5{
+position: absolute;
+width: 403px;
+height: 72px;
+left: 137px;
+top:150px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+color: #161755;
+}
+.laptop{
+position: absolute;
+width: 468px;
+height: 265px;
+left: 653px;
+top: 250px;
+}
+.prgh6{
+position: absolute;
+left: 671px;
+top: 550px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+color: #000000;
+}
+.skills{
+position: absolute;
+width: 480px;
+height: 250px;
+left: 127px;
+top: 630px;
+}
+.prgh7{
+position: absolute;
+width: 389px;
+height: 42px;
+left: 151px;
+top: 900px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
 color: #000000;
 }
