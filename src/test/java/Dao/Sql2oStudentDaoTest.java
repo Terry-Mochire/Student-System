@@ -54,6 +54,11 @@ class Sql2oStudentDaoTest {
     }
 
     @Test
+    void noAddedStudentReturnsEmplyList() {
+        assertEquals(0, sql2oStudentDao.getAll().size());
+    }
+
+    @Test
     void findByName_returnsStudentWithTheSameName() {
         Student testStudent = setUpStudent();
         Student testStudent2 = setUpStudent2();
@@ -64,18 +69,30 @@ class Sql2oStudentDaoTest {
     }
 
     @Test
-    void deleteById() {
+    void deleteById_deletesCorrectStudent() {
+        Student testStudent = setUpStudent();
+        Student testStudent2 = setUpStudent2();
+        sql2oStudentDao.add(testStudent);
+        sql2oStudentDao.add(testStudent2);
+        sql2oStudentDao.deleteByName(testStudent.getName());
+        assertTrue(sql2oStudentDao.getAll().get(0).equals(testStudent2));
     }
 
     @Test
-    void clearAll() {
+    void clearAllDeletesAllStudentsFromTheDatabase() {
+        Student testStudent = setUpStudent();
+        Student testStudent2 = setUpStudent2();
+        sql2oStudentDao.add(testStudent);
+        sql2oStudentDao.add(testStudent2);
+        sql2oStudentDao.clearAll();
+        assertEquals(0, sql2oStudentDao.getAll().size());
     }
 
 
 
     //helper
     public Student setUpStudent(){
-        Student testStudent = new Student("Kirk", "kirk@test.com", "0712345678",  "2022-05-16", 1);
+        Student testStudent = new Student("Kirk Franklin", "kirk@test.com", "0712345678",  "2022-05-16", 1);
         return testStudent;
     }
 

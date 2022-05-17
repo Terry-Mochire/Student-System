@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e215f530-bf52-4874-a69d-589e41ec7cbc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dao/Sql2oStudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oStudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Dao/Sql2oStudentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Dao/Sql2oStudentDaoTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="e215f530-bf52-4874-a69d-589e41ec7cbc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
