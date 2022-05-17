@@ -71,6 +71,22 @@ class Sql2oCourseDaoTest {
 
     @Test
     void deleteByName() {
+        Course testCourse = setUpCourse();
+        Course testCourse2 = setUpCourse2();
+        sql2oCourseDao.add(testCourse);
+        sql2oCourseDao.add(testCourse2);
+        sql2oCourseDao.deleteByName(testCourse.getCourseName());
+        assertTrue(sql2oCourseDao.getAll().get(0).equals(testCourse2));
+    }
+
+    @Test
+    void clearAllDeletesAllCoursesFromDatabase(){
+        Course testCourse = setUpCourse();
+        Course testCourse2 = setUpCourse2();
+        sql2oCourseDao.add(testCourse);
+        sql2oCourseDao.add(testCourse2);
+        sql2oCourseDao.clearAll();
+        assertEquals(0, sql2oCourseDao.getAll().size());
     }
 
 

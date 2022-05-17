@@ -51,7 +51,14 @@ public class Sql2oCourseDao implements CourseDao{
 
     @Override
     public void deleteByName(String name) {
-
+        String sql = "DELETE FROM courses WHERE coursename = :name;";
+        try(Connection con = DB.sql2o.open()) {
+            con.createQuery(sql)
+                    .addParameter("name",name)
+                    .executeUpdate();
+        } catch (Sql2oException ex) {
+            System.out.println("Error deleting this course" + ex);
+        }
     }
 
     @Override

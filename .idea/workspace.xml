@@ -69,7 +69,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Sql2oCourseDaoTest.noAddedCourseReturnsEmptyList">
+  <component name="RunManager" selected="JUnit.Sql2oCourseDaoTest.findByNameReturnsCourseWithTheSameName">
     <configuration name="Sql2oCourseDaoTest.addInsertsObjectIntoDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentSytem.test" />
       <extension name="coverage">
@@ -86,6 +86,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sql2oCourseDaoTest.findByNameReturnsCourseWithTheSameName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentSytem.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
+      <option name="METHOD_NAME" value="findByNameReturnsCourseWithTheSameName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sql2oCourseDaoTest.getAll_returnsAllInstancesOfCourses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentSytem.test" />
       <extension name="coverage">
@@ -97,22 +113,6 @@
       <option name="PACKAGE_NAME" value="Dao" />
       <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
       <option name="METHOD_NAME" value="getAll_returnsAllInstancesOfCourses" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oCourseDaoTest.newCourseInstantiatesCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentSytem.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Dao" />
-      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
-      <option name="METHOD_NAME" value="newCourseInstantiatesCorrectly" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Sql2oCourseDaoTest.findByNameReturnsCourseWithTheSameName" />
         <item itemvalue="JUnit.Sql2oCourseDaoTest.noAddedCourseReturnsEmptyList" />
         <item itemvalue="JUnit.Sql2oCourseDaoTest.getAll_returnsAllInstancesOfCourses" />
         <item itemvalue="JUnit.Sql2oCourseDaoTest.addInsertsObjectIntoDatabase" />
         <item itemvalue="JUnit.Sql2oCourseDaoTest.newCourseInstantiatesCorrectlyWithId" />
-        <item itemvalue="JUnit.Sql2oCourseDaoTest.newCourseInstantiatesCorrectly" />
       </list>
     </recent_temporary>
   </component>
