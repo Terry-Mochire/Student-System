@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e215f530-bf52-4874-a69d-589e41ec7cbc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Dao/DatabaseRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Dao/DatabaseRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dao/Sql2oCourseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dao/Sql2oCourseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Dao/Sql2oCourseDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Dao/Sql2oCourseDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Sql2oCourseDaoTest.addInsertsObjectIntoDatabase">
+  <component name="RunManager" selected="JUnit.Sql2oCourseDaoTest.noAddedCourseReturnsEmptyList">
     <configuration name="Sql2oCourseDaoTest.addInsertsObjectIntoDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentSytem.test" />
       <extension name="coverage">
@@ -81,6 +81,22 @@
       <option name="PACKAGE_NAME" value="Dao" />
       <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
       <option name="METHOD_NAME" value="addInsertsObjectIntoDatabase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sql2oCourseDaoTest.getAll_returnsAllInstancesOfCourses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentSytem.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
+      <option name="METHOD_NAME" value="getAll_returnsAllInstancesOfCourses" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sql2oStudentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Sql2oCourseDaoTest.noAddedCourseReturnsEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentSytem.test" />
       <extension name="coverage">
         <pattern>
@@ -127,23 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Dao" />
-      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oStudentDaoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sql2oStudentDaoTest.add_insertsObjectIntoDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentSytem.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Dao" />
-      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oStudentDaoTest" />
-      <option name="METHOD_NAME" value="add_insertsObjectIntoDatabase" />
+      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
+      <option name="METHOD_NAME" value="noAddedCourseReturnsEmptyList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Sql2oCourseDaoTest.noAddedCourseReturnsEmptyList" />
+        <item itemvalue="JUnit.Sql2oCourseDaoTest.getAll_returnsAllInstancesOfCourses" />
         <item itemvalue="JUnit.Sql2oCourseDaoTest.addInsertsObjectIntoDatabase" />
         <item itemvalue="JUnit.Sql2oCourseDaoTest.newCourseInstantiatesCorrectlyWithId" />
         <item itemvalue="JUnit.Sql2oCourseDaoTest.newCourseInstantiatesCorrectly" />
-        <item itemvalue="JUnit.Sql2oStudentDaoTest.add_insertsObjectIntoDatabase" />
-        <item itemvalue="JUnit.Sql2oStudentDaoTest" />
       </list>
     </recent_temporary>
   </component>

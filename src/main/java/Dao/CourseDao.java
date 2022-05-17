@@ -11,7 +11,7 @@ public interface CourseDao {
 
     //Read
     List<Course> getAll();
-    Course findByName(String name);
+    Course findByName(String courseName);
 
     //Update
 

@@ -60,7 +60,13 @@ class Sql2oCourseDaoTest {
     }
 
     @Test
-    void findByName() {
+    void findByNameReturnsCourseWithTheSameName() {
+        Course testCourse = setUpCourse();
+        Course testCourse2 = setUpCourse2();
+        sql2oCourseDao.add(testCourse);
+        sql2oCourseDao.add(testCourse2);
+        Course fetchedCourse = sql2oCourseDao.findByName(testCourse.getCourseName());
+        assertEquals(testCourse, fetchedCourse);
     }
 
     @Test

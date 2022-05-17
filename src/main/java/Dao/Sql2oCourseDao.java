@@ -40,8 +40,13 @@ public class Sql2oCourseDao implements CourseDao{
     }
 
     @Override
-    public Course findByName(String name) {
-        return null;
+    public Course findByName(String courseName) {
+        String sql = "SELECT * FROM courses WHERE coursename = :courseName;";
+        try(Connection con = DB.sql2o.open()) {
+            return con.createQuery(sql)
+                            .addParameter("courseName", courseName)
+                    .executeAndFetchFirst(Course.class);
+        }
     }
 
     @Override
