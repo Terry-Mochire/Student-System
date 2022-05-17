@@ -45,7 +45,18 @@ class Sql2oCourseDaoTest {
     }
 
     @Test
-    void getAll() {
+    void getAll_returnsAllInstancesOfCourses() {
+        Course testCourse = setUpCourse();
+        Course testCourse2 = setUpCourse2();
+        sql2oCourseDao.add(testCourse);
+        sql2oCourseDao.add(testCourse2);
+        assertTrue(sql2oCourseDao.getAll().get(0).equals(testCourse));
+        assertTrue(sql2oCourseDao.getAll().get(0).equals(testCourse));
+    }
+
+    @Test
+    void noAddedCourseReturnsEmptyList() {
+        assertEquals(0, sql2oCourseDao.getAll().size());
     }
 
     @Test
@@ -60,6 +71,11 @@ class Sql2oCourseDaoTest {
     //helper
     public Course setUpCourse(){
         Course testCourse = new Course("Communication", "Enhance your communication skills");
+        return testCourse;
+    }
+
+    public Course setUpCourse2(){
+        Course testCourse = new Course("Marketing", "Enhance your marketing skills");
         return testCourse;
     }
 }
