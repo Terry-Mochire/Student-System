@@ -38,7 +38,7 @@ public class App {
             Student createdStudent = new Student(name, email, phonenumber, enrolmentdate, courseid);
               sql2oStudentDao.add(createdStudent);
             System.out.println(sql2oStudentDao.getAll());
-              response.redirect("/");
+              response.redirect("/student/new");
               return null;
         }, new HandlebarsTemplateEngine());
 
@@ -48,7 +48,7 @@ public class App {
             List<Course> courses = sql2oCourseDao.getAll();
             model.put("students", students);
             model.put("courses", courses);
-            return new ModelAndView(model, "courses.hbs");
+            return new ModelAndView(model, "course.hbs");
         }, new HandlebarsTemplateEngine());
 
         //show all students in a course
