@@ -13,6 +13,7 @@ import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
+        port(8080);
         staticFileLocation("/public");
 
         Sql2o sql2o = new Sql2o("jdbc:postgresql://localhost:5432/student_system", "terry", "Postgres4041*");
@@ -43,7 +44,7 @@ public class App {
             Map<String,Object> model = new HashMap<>();
             List<Student> students = sql2oStudentDao.getAll();
             model.put("students", students);
-            return new ModelAndView(model, "studentform.hbs");
+            return new ModelAndView(model, "allstudents.hbs");
         }, new HandlebarsTemplateEngine());
     }
 }
