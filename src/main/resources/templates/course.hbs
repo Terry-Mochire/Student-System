@@ -1,8 +1,17 @@
+{{> layout.hbs}}
+{{#block "content"}}
+    <div class="allcourses">
+        <h3 class="allcourses-header">My Courses</h3>
+         <h5 class="subheader">ALL COURSES</h5>
 {{#each courses}}
+    <div class="percourse">
     <ul>
         <li>Course Title: {{courseName}}</li>
         <li>Course Description: {{courseDetails}}</li>
-        <a href="/students/{{id}}">Show students in this Course</a>
+        <a href="/students/{{id}}" class="coursebuttons">View Course</a>
 
     </ul>
+    </div>
 {{/each}}
+    </div>
+{{/block}}
