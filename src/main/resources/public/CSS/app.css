@@ -336,3 +336,108 @@ color: #FFFFFF;
     width: 120px;
     height: 40px;
 }
+
+.testimony-header{
+    position: absolute;
+    left: 240px;
+    top: 1327px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+}
+.students {
+    position: absolute;
+    top: 1580px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.iconify {
+    position: absolute;
+    top: 1580px;
+    margin-left: 400px;
+    color: #F59072;
+    font-family: BIZ UDPGothic, sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+
+.prgh8 {
+    position: absolute;
+    top: 1660px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left:90px;
+    color: #000000;
+}
+
+
+.testimonials {
+    margin: 1px solid red;
+    top: 1327px;
+    background: #F6F6EE;
+}
+
+.banner {
+    position: absolute;
+    left: 400px;
+    width: 1000px;
+    height: 180px;
+    top: 1900px;
+    background: #F59072;
+    border-radius: 8px;
+    padding-left: 50px;
+}
+
+.banner-header {
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 65px;
+/* identical to box height */
+
+
+color: white;
+}
+
+.banner-content {
+font-family: 'Poppins';
+color: white;
+font-size: 20px;
+}
+
+.register {
+position: absolute;
+left: 817px;
+top: 70px;
+border: none;
+background: #4A4CC8;
+border-radius: 5px;
+width: 147px;
+height: 48px;
+}
+
+.register-link {
+color: white;
+text-decoration:none;
+}
+
+a:hover {
+color:#F59072;
+}
+
