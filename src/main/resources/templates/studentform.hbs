@@ -1,3 +1,4 @@
+
 {{#partial "nav-links"}}
     <link rel='stylesheet' href='/CSS/app.css'>
 {{/partial}}
@@ -53,3 +54,34 @@
     {{/block}}
 {{/partial}}
 {{> layout.hbs}}
+<form action="/students/new" method="post">
+    <div class="mb-3">
+        <label for="name" class="form-label">Student Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Student Email</label>
+        <input type="text" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="mb-3">
+        <label for="phonenumber" class="form-label">Student PhoneNumber</label>
+        <input type="text" class="form-control" id="phonenumber" name="phonenumber" required>
+    </div>
+    <div class="mb-3">
+        <label for="enrolmentdate" class="form-label">Enrollment Date</label>
+        <input type="date" class="form-control" id="enrolmentdate" name="enrolmentdate" required>
+    </div>
+    <div class="mb-3">
+        <label for="courseid" class="form-label">Course</label>
+<!--        <input type="number" class="form-control" id="courseid" name="courseid" required>-->
+        <select name="courseid" id="courseid">
+            <option value="1">Creative Thinking And Tools For Success</option>
+            <option value="2">Team Work Skills</option>
+            <option value="3">Emotional And Social Intelligence</option>
+            <option value="4">Foundations Of Professional Identity</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+

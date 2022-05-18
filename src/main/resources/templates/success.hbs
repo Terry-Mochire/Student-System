@@ -1,0 +1,15 @@
+{{#if studentsByCourse}}
+{{#each studentsByCourse}}
+    <ul>
+        <li>Student Name: <span>{{name}}</span></li>
+        <li>Student Email: <span>{{email}}</span></li>
+        <li>Student PhoneNumber: <span>{{phoneNumber}}</span></li>
+        <li>Enrollment Date: <span>{{enrollmentDate}}</span></li>
+    </ul>
+{{/each}}
+<a href="/courses">Go back to all courses</a>
+
+{{else}}
+    <p>No student has enrolled for this course</p>
+    <a href="/courses">Go back to all courses</a>
+{{/if}}

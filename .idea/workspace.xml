@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e215f530-bf52-4874-a69d-589e41ec7cbc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/courses.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/studentform.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/studentform.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/success.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/success.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +39,22 @@
       </state>
     </system>
   </component>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -57,6 +78,25 @@
   }
 }</component>
   <component name="RunManager">
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Dao" />
+      <recent name="models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="StudentSytem.main" />
@@ -66,6 +106,17 @@
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Student-System" />
+    <configuration name="Sql2oCourseDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentSytem.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,13 +124,61 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="Student-System" />
       <option name="filePath" />
+    <configuration name="Sql2oCourseDaoTest.clearAllDeletesAllCoursesFromDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentSytem.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
+      <option name="METHOD_NAME" value="clearAllDeletesAllCoursesFromDatabase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sql2oCourseDaoTest.deleteByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentSytem.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
+      <option name="METHOD_NAME" value="deleteByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sql2oCourseDaoTest.findByNameReturnsCourseWithTheSameName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentSytem.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.Sql2oCourseDaoTest" />
+      <option name="METHOD_NAME" value="findByNameReturnsCourseWithTheSameName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Sql2oCourseDaoTest" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.Sql2oCourseDaoTest.clearAllDeletesAllCoursesFromDatabase" />
+        <item itemvalue="JUnit.Sql2oCourseDaoTest.deleteByName" />
+        <item itemvalue="JUnit.Sql2oCourseDaoTest.findByNameReturnsCourseWithTheSameName" />
       </list>
     </recent_temporary>
   </component>
@@ -107,5 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
