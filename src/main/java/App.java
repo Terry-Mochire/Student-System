@@ -15,7 +15,7 @@ import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
-        port(2020);
+        port(2022);
 
         staticFileLocation("/public");
 
@@ -26,7 +26,7 @@ public class App {
 
         get("/", (request, response) -> {
 
-                    return new ModelAndView(new HashMap(), "layout.hbs");
+                    return new ModelAndView(new HashMap(), "index.hbs");
                     }, new HandlebarsTemplateEngine());
 
         get("/student/new", (request, response) -> {
