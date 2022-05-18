@@ -486,7 +486,7 @@ list-style: none
 
 .percourse {
 background: white;
-height: 120px;
+height: 140px;
 width: 1100px;
 margin-bottom: 10px;
 border-radius: 8px;
@@ -502,4 +502,50 @@ background: #56CB81;
 border-radius: 5px;
 padding-top: 10px;
 padding-left: 20px;
+color:white;
+text-decoration: none;
 }
+
+.coursetitle {
+    padding-left: 230px;
+    padding-top: 25px
+}
+
+.coursedescription {
+    padding-left: 230px;
+}
+
+.laptop-emoji {
+position: absolute;
+width: 120px;
+height: 110px;
+left: 100px;
+top: 160px;
+}
+
+.robot {
+position: absolute;
+width: 120px;
+height: 110px;
+left: 100px;
+top: 300px;
+
+}
+
+.man {
+ position: absolute;
+ width: 120px;
+ height: 110px;
+ left: 100px;
+ top: 450px;
+
+ }
+
+ .target {
+ position: absolute;
+  width: 150px;
+  height: 110px;
+  left: 100px;
+  top: 600px;
+
+ }
