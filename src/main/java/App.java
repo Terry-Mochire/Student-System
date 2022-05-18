@@ -16,6 +16,10 @@ import java.util.Map;
 public class App {
     public static void main(String[] args) {
         port(8080);
+      
+        get("/", (request, response) -> {
+
+            return new ModelAndView(new HashMap(), "layout.hbs");
         staticFileLocation("/public");
 
         Sql2o sql2o = new Sql2o("jdbc:postgresql://localhost:5432/student_system", "terry", "Postgres4041*");

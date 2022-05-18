@@ -1,0 +1,292 @@
+*{
+margin:0px;
+padding:0px;
+font-family:'poppins';
+}
+.logo{
+position: absolute;
+width: 259px;
+height: 54px;
+left: 117px;
+top: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+color: #161755;
+}
+.home{
+position: absolute;
+width: 59px;
+height: 30px;
+left: 500px;
+top: 15px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: #000000;
+}
+.about{
+position: absolute;
+width: 70px;
+height: 30px;
+left: 650px;
+top: 15px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: #000000;
+}
+.student{
+position: absolute;
+width: 116px;
+height: 27px;
+left: 800px;
+top: 15px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+.course{
+position: absolute;
+width: 81px;
+height: 30px;
+left: 950px;
+top: 15px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: #000000;
+}
+.contact{
+position: absolute;
+width: 116px;
+height: 32px;
+left: 1100px;
+top: 15px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+.homepage{
+position: absolute;
+width: 588px;
+height: 611px;
+left: 600px;
+top: 180px;
+}
+.main-head{
+position: absolute;
+width: 517px;
+height: 72px;
+left: 132px;
+top: 400px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+color: #161755;
+}
+.prgh1{
+position: absolute;
+left: 132px;
+top: 550px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: #000000;
+}
+.btn1{
+position: absolute;
+width: 120px;
+height: 40px;
+left: 139px;
+top: 630px;
+border:none;
+background: #4A4CC8;
+border-radius: 8px
+}
+.main-container{
+position: relative;
+width: 100%;
+height: 1200px;
+background: #F6F6EE;
+}
+.head-2{
+position: absolute;
+left: 600px;
+top: 850px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+line-height: 60px;
+/* identical to box height */
+color: #161755;
+}
+.prgh2{
+position: absolute;
+left: 420px;
+top: 930px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+}
+.prgh3{
+position: absolute;
+width: 921px;
+height: 30px;
+left: 340px;
+top: 980px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: #000000;
+}
+.prgh4{
+position: absolute;
+width: 723px;
+height: 30px;
+left: 420px;
+top: 1030px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: #000000;
+}
+.courses{
+position: absolute;
+width: 100%;
+height: 800px;
+left: 0px;
+top: 1100px;
+background: #FFFDFD;
+}
+.prgh5{
+position: absolute;
+width: 403px;
+height: 72px;
+left: 137px;
+top:150px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+color: #161755;
+}
+.laptop{
+position: absolute;
+width: 468px;
+height: 265px;
+left: 653px;
+top: 250px;
+}
+.prgh6{
+position: absolute;
+left: 671px;
+top: 550px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+color: #000000;
+}
+.skills{
+position: absolute;
+width: 480px;
+height: 250px;
+left: 127px;
+top: 630px;
+}
+.prgh7{
+position: absolute;
+width: 389px;
+height: 42px;
+left: 151px;
+top: 900px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+}
+.footer{
+position: absolute;
+width: 100%;
+height: 300px;
+left: 0px;
+top: 2150px;
+background: #525893;
+}
+.foot{
+position: absolute;
+left: 129px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+margin-top: 50px;
+font-size: 20px;
+color: #FFFFFF;
+}
+.follow{
+position: absolute;
+width: 121px;
+height: 36px;
+left: 903px;
+top:50px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #FFFFFF;
+}
+.icons{
+height: 50px;
+width: 60px;
+padding: 5px;
+}
+.rights{
+position: absolute;
+left: 500px;
+top:240px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+}
