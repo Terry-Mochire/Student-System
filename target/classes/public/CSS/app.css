@@ -21,7 +21,7 @@ color: #161755;
 position: absolute;
 width: 59px;
 height: 30px;
-left: 650px;
+left: 500px;
 top: 15px;
 font-family: 'Poppins';
 font-style: normal;
@@ -35,7 +35,7 @@ color: #000000;
 position: absolute;
 width: 70px;
 height: 30px;
-left: 850px;
+left: 650px;
 top: 15px;
 font-family: 'Poppins';
 font-style: normal;
@@ -49,7 +49,7 @@ color: #000000;
 position: absolute;
 width: 116px;
 height: 27px;
-left: 1000px;
+left: 800px;
 top: 15px;
 font-family: 'Poppins';
 font-style: normal;
@@ -62,7 +62,7 @@ color: #000000;
 position: absolute;
 width: 81px;
 height: 30px;
-left: 1150px;
+left: 950px;
 top: 15px;
 font-family: 'Poppins';
 font-style: normal;
@@ -72,13 +72,11 @@ line-height: 30px;
 /* identical to box height */
 color: #000000;
 }
-
-
 .contact{
 position: absolute;
 width: 116px;
 height: 32px;
-left: 1300px;
+left: 1100px;
 top: 15px;
 font-family: 'Poppins';
 font-style: normal;
@@ -128,12 +126,7 @@ left: 139px;
 top: 630px;
 border:none;
 background: #4A4CC8;
-border-radius: 8px;
-}
-
-#started {
-color:white;
-text-decoration:none;
+border-radius: 8px
 }
 .main-container{
 position: relative;
@@ -219,7 +212,6 @@ height: 265px;
 left: 653px;
 top: 250px;
 }
-
 .prgh6{
 position: absolute;
 left: 671px;
@@ -274,7 +266,7 @@ color: #FFFFFF;
 position: absolute;
 width: 121px;
 height: 36px;
-left: 1103px;
+left: 903px;
 top:50px;
 font-family: 'Poppins';
 font-style: normal;
@@ -283,13 +275,13 @@ font-size: 20px;
 color: #FFFFFF;
 }
 .icons{
-height: 55px;
+height: 50px;
 width: 60px;
 padding: 5px;
 }
 .rights{
 position: absolute;
-left: 600px;
+left: 500px;
 top:240px;
 font-family: 'Poppins';
 font-style: normal;
@@ -359,16 +351,6 @@ color: #FFFFFF;
 
 
 }
-.student1 {
-    position: absolute;
-    top: 1580px;
-    width: 75px;
-    height: 70px;
-    border-radius: 100%;
-    margin-bottom: 20px;
-    margin-left: 50px;
-}
-
 .students {
     position: absolute;
     top: 1580px;
@@ -379,15 +361,6 @@ color: #FFFFFF;
     margin-left: 50px;
 }
 
-.student3{
-     position: absolute;
-        top: 1580px;
-        width: 70px;
-        height: 65px;
-        border-radius: 100%;
-        margin-bottom: 20px;
-        margin-left: 50px;
-}
 .iconify {
     position: absolute;
     top: 1580px;
@@ -578,49 +551,21 @@ top: 300px;
  }
 
 .success {
-position:absolute;
  background: #F6F6EE;;
  height: 100vh;
  width: 100%;
  }
 
  .eachsuccess {
-    margin-top:20px;
-    margin-left:400px;
-    background: white;
-    height: 200px;
-    width: 600px;
-   padding: 30px;
-
+ position: absolute;
+ background: white;
+ left: 100px;
+ height: 200px;
+ width: 600px;
+ top: 200px;
+padding: 30px;
  }
 
  .success-link {
     text-decoration: none;
  }
-
- .footer2{
- position: absolute;
- width: 100%;
- height: 300px;
- left: 0px;
- top: 800px;
- background: #525893;
- }
-
- .btn2{
- position: absolute;
- width: 120px;
- height: 40px;
- left: 200px;
- top: 50px;
- border:none;
- background: #4A4CC8;
- border-radius: 8px;
-
- }
-
-
-.back {
-color:white;
-text-decoration: none;
-}

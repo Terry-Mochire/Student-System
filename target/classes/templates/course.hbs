@@ -1,0 +1,31 @@
+{{> layout.hbs}}
+{{#block "content"}}
+    <div class="allcourses">
+        <img src="/images/laptopemoji lore.png" alt="laptop emoji" class="laptop-emoji">
+        <img src="/images/image1.png" alt="robot emoji" class="robot">
+        <img src="/images/man.png" alt="man emoji" class="man">
+        <img src="/images/target lore.jpg" alt="target emoji" class="target">
+        <h3 class="allcourses-header">My Courses</h3>
+         <h5 class="subheader">ALL COURSES</h5>
+{{#each courses}}
+    <div class="percourse">
+    <ul>
+        <li class="coursetitle">{{courseName}}</li>
+        <li class="coursedescription">{{courseDetails}}</li>
+        <a href="/students/{{id}}" class="coursebuttons">View Course</a>
+
+    </ul>
+    </div>
+{{/each}}
+    </div>
+
+    <div class="courses">
+        <p class="prgh5">Our Most popular courses</p>
+        <img class="laptop" src="./images/lorey laptop.jpeg" alt="laptop">
+        <p class="prgh6">Creative Thinking: Techniques <br>
+            and tools for success</p>
+        <img class="skills" src="./images/soft lore.jpg" alt="skills">
+        <p class="prgh7">Foundations of Professional Identity <br>
+            Shaping Your Professional Brand</p>
+    </div>
+{{/block}}
